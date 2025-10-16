@@ -4,7 +4,11 @@
 }
 
 .font-inter {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Jost', sans-serif;
+}
+
+.font-jost {
+    font-family: 'Jost', sans-serif;
 }
 
 /* Tailwind configuration for custom fonts */
@@ -26,7 +30,7 @@
     }
 
     body {
-        font-family: 'Inter', sans-serif;
+        font-family: 'Jost', sans-serif;
         margin: 0;
         padding: 0;
         overflow-x: hidden;
@@ -53,7 +57,7 @@
         z-index: 1000;
         padding: 1rem 0rem;
         transition: all 0.3s ease;
-        background: #332B22;
+        /* background: #332B22; */
         border-top: 3px solid #B89B5F;
         width: 100%;
     }
@@ -759,7 +763,7 @@
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    border-radius: 59px;
+    /* border-radius: 59px; */
     background: #B98934;
     width: fit-content;
 }
